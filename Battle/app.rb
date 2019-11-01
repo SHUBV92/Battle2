@@ -26,7 +26,7 @@ class Battle < Sinatra::Base
         @player_1_name = session[:player_1_name] 
         @player_2_name = session[:player_2_name]    
         erb :attack
-
+    end 
     # start the server if ruby file executed directory 
     run! if app_file == $0
 end 
@@ -40,14 +40,3 @@ end
 
 
 
-
-# <form action="/">
-
-
-# </form>
-
-# p params 
-# @name = params[:player_1]
-# @name = params[:player_2]
-
-#         erb:index 
